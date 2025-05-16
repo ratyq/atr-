@@ -1,0 +1,5 @@
+//@version=5 
+indicator(title = "avarege true range" , shorttitle = "atr" , overlay = false )
+atrinput = input(14, title = "atr avarege")
+atr = ta.atr(atrinput)
+plot(atr)
